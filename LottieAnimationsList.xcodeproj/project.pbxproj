@@ -16,6 +16,7 @@
 		81D0268C298573F4004C00C4 /* 32068-dolphin-jump-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 81D0268B298573F4004C00C4 /* 32068-dolphin-jump-1.json */; };
 		81D0268E2985741E004C00C4 /* 51123-fs-dolphin.json in Resources */ = {isa = PBXBuildFile; fileRef = 81D0268D2985741E004C00C4 /* 51123-fs-dolphin.json */; };
 		81D0269029857474004C00C4 /* 133300-popular-heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 81D0268F29857474004C00C4 /* 133300-popular-heart.json */; };
+		81D02692298574DB004C00C4 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D02691298574DB004C00C4 /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		81D0268B298573F4004C00C4 /* 32068-dolphin-jump-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32068-dolphin-jump-1.json"; sourceTree = "<group>"; };
 		81D0268D2985741E004C00C4 /* 51123-fs-dolphin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "51123-fs-dolphin.json"; sourceTree = "<group>"; };
 		81D0268F29857474004C00C4 /* 133300-popular-heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "133300-popular-heart.json"; sourceTree = "<group>"; };
+		81D02691298574DB004C00C4 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +84,7 @@
 		81D0268129857059004C00C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				81D0268329857093004C00C4 /* AnimationListView.swift */,
-				81D026882985729A004C00C4 /* LottieView.swift */,
+				81D02691298574DB004C00C4 /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,6 +92,8 @@
 		81D026822985705F004C00C4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				81D026882985729A004C00C4 /* LottieView.swift */,
+				81D0268329857093004C00C4 /* AnimationListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D02692298574DB004C00C4 /* FavouriteAnimation.swift in Sources */,
 				81D0267429856F9F004C00C4 /* LottieAnimationsListApp.swift in Sources */,
 				81D0268429857093004C00C4 /* AnimationListView.swift in Sources */,
 				81D026892985729A004C00C4 /* LottieView.swift in Sources */,
